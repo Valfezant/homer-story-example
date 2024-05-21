@@ -113,13 +113,6 @@ class HomerLabels {
 
 
 class HomerFlowSlugs {
-      static ASKING_ZEUS = "Asking Zeus";
-      static TEST_PASTE = "Test Paste";
-      static TRICKS__ALL_SAY_BYE = "Tricks: All say bye";
-      static TRICKS__CROSSING_THE_RIVER = "Tricks: Crossing the river";
-      static SMART_RANDOM = "Smart Random";
-      static SAMPLE__CALCULATOR = "Sample: calculator";
-      static NEW_FLOW = "New Flow";
       static STORY = "Story";
  }
 
