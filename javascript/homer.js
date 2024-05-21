@@ -320,6 +320,9 @@ window.homerDrawer = {
 			if (window.actor._uid == "CITTADINI") {
 				window.avatar = '<img src="img/avatar_cittadini.jpg" alt="Cittadini Avatar"></img>'
 			}
+			if (window.actor._uid == "NARRATOR") {
+				window.avatar = '<img src="img/avatar_cittadini.jpg" alt="Narrator Avatar"></img>'
+			}
 
 			let actorName = actor._name;
 			if (actorName == "ENCICLOPEDIA") {
@@ -339,7 +342,7 @@ window.homerDrawer = {
 					homerDrawer.placeholders.actor_name_placeholder.html(actorName);
 					homerDrawer.placeholders.text_placeholder.html(Homer.getParsedText());
 					
-					let next = $("<button>").addClass("btn btn-primary choice-button").html("AVANTI");
+					let next = $("<button>").addClass("btn btn-primary choice-button").html("NEXT");
 					
 					next.on("click", () => {
 						homerDrawer.drawNext();
