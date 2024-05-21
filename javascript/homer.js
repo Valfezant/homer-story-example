@@ -308,12 +308,10 @@ window.homerDrawer = {
 		if (node != null) {
 			
 			window.actor = Homer.getNodeActor();
-			if (window.actor != null && !window.actor._isNarrator)
-				{
-					window.avatar = window.Avataaars.create(actor._avatar._options);
-				}
-			console.debug("window.actor._id = " + window.actor._uid);
-			/*if (window.actor._uid == "CSABA_MAGA") {
+			//if (window.actor != null && !window.actor._isNarrator)
+			//	window.avatar = window.Avataaars.create(actor._avatar._options);
+			//console.debug("window.actor._id = " + window.actor._uid);
+			if (window.actor._uid == "CSABA_MAGA") {
 				window.avatar = '<img src="img/avatar_maga.jpg" alt="Maga Avatar"></img>'
 			}
 			if (window.actor._uid == "CONSIGLIERE_REVAN") {
@@ -322,14 +320,16 @@ window.homerDrawer = {
 			if (window.actor._uid == "CITTADINI") {
 				window.avatar = '<img src="img/avatar_cittadini.jpg" alt="Cittadini Avatar"></img>'
 			}
-			*/
+			if (window.actor._uid == "NARRATOR") {
+				window.avatar = '<img src="img/avatar_cittadini.jpg" alt="Narrator Avatar"></img>'
+			}
 
-			/*let actorName = actor._name;
+			let actorName = actor._name;
 			if (actorName == "ENCICLOPEDIA") {
 				$("#container").addClass("special-story-container");
 			} else {
 				$("#container").removeClass("special-story-container");
-			}*/
+			}
 			
 			switch (node._type) {	
 				case NodeType.text:
