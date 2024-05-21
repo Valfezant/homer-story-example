@@ -1,6 +1,6 @@
 /**
 * javascript variables for the Homer project:
-* Homer Examples
+* Thoughts at the park
 * Homer - The Story Flow Editor.
 * Copyright (c)2021-2024. Open Lab s.r.l - Florence, Italy
 * Developer: Pupunzi (Matteo Bicocchi)
