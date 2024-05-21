@@ -1,10 +1,5 @@
-# homer
-
-
-
-npm install -g browser-sync
-browser-sync
-
+# Thoughts at the park
+A short narrative experience exploring the topic of personal convictions and the act of convincing.
 
 ## Play Online
 <https://valfezant.github.io/with-emily-at-the-park/>
