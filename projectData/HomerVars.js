@@ -9,6 +9,7 @@
 
 class HomerVars {
 
+      static smoker = 0;
       static emilySees = 0;
       static scooterGirl = 0;
       static test = false;
