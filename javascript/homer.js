@@ -311,17 +311,14 @@ window.homerDrawer = {
 			//if (window.actor != null && !window.actor._isNarrator)
 			//	window.avatar = window.Avataaars.create(actor._avatar._options);
 			//console.debug("window.actor._id = " + window.actor._uid);
-			if (window.actor._uid == "CSABA_MAGA") {
-				window.avatar = '<img src="img/avatar_maga.jpg" alt="Maga Avatar"></img>'
+			if (window.actor._uid == "TEENAGER") {
+				window.avatar = '<img src="img/teenager_profile.png" alt="Teenager Avatar"></img>'
 			}
-			if (window.actor._uid == "CONSIGLIERE_REVAN") {
-				window.avatar = '<img src="img/avatar_consigliere.jpg" alt="Consigliere Avatar"></img>'
+			if (window.actor._uid == "SMOKER") {
+				window.avatar = '<img src="img/smoker_profile.png" alt="Smoker Avatar"></img>'
 			}
-			if (window.actor._uid == "CITTADINI") {
-				window.avatar = '<img src="img/avatar_cittadini.jpg" alt="Cittadini Avatar"></img>'
-			}
-			if (window.actor._uid == "NARRATOR") {
-				window.avatar = '<img src="img/avatar_cittadini.jpg" alt="Narrator Avatar"></img>'
+			if (window.actor._uid == "EMILY") {
+				window.avatar = '<img src="img/emily_profile.png" alt="Emily Avatar"></img>'
 			}
 
 			let actorName = actor._name;
