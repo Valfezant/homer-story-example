@@ -309,8 +309,10 @@ window.homerDrawer = {
 			
 			window.actor = Homer.getNodeActor();
 			if (window.actor != null && !window.actor._isNarrator)
-				window.avatar = window.Avataaars.create(actor._avatar._options);
-			//console.debug("window.actor._id = " + window.actor._uid);
+				{
+					window.avatar = window.Avataaars.create(actor._avatar._options);
+				}
+			console.debug("window.actor._id = " + window.actor._uid);
 			/*if (window.actor._uid == "CSABA_MAGA") {
 				window.avatar = '<img src="img/avatar_maga.jpg" alt="Maga Avatar"></img>'
 			}
